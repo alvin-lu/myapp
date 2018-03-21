@@ -1,0 +1,85 @@
+extends layout
+
+block content
+  h1= 'a/A'
+  .container
+    br
+    .row
+      h3= 'Step 2'
+    .row
+      .col-md-3
+        h5= 'w1d1'
+      .col-md-3
+        h5= 'w1d2'
+      .col-md-3
+        h5= 'w1d3'
+      .col-md-3
+        h5= 'w1d4'
+    .row
+      .col-md-3
+        h5= 'w2d1'
+      .col-md-3
+        h5= 'w2d2'
+      .col-md-3
+        h5= 'w2d3'
+      .col-md-3
+        h5= 'w2d4'
+    br
+    .row
+      h3= 'Practice Assessment'
+    .row
+      .col-md-3
+        h5= 'practice one'
+        .col-md-6
+          a(href='/ruby/other/assessment/practice1/main.rb')
+            h5= 'main.rb'
+          a(href='/ruby/other/assessment/practice1/test.rb')
+            h5= 'test.rb'
+      .col-md-3
+        h5= 'practice two'
+        .col-md-6
+          a(href='/ruby/other/assessment/practice2/main.rb')
+            h5= 'main.rb'
+          a(href='/ruby/other/assessment/practice2/test.rb')
+            h5= 'test.rb'
+      .col-md-3
+        h5= 'practice three'
+        .col-md-6
+          a(href='/ruby/other/assessment/practice3/main.rb')
+            h5= 'main.rb'
+          a(href='/ruby/other/assessment/practice3/test.rb')
+            h5= 'test.rb'
+      .col-md-3
+        h5= 'practice four'
+        .col-md-6
+          a(href='/ruby/other/assessment/practice4/main.rb')
+            h5= 'main.rb'
+          a(href='/ruby/other/assessment/practice4/test.rb')
+            h5= 'test.rb'
+    br
+    .row
+      h3= 'Technical Interview Prep'
+    .row
+      .col-md-3
+        h5= 'easy'
+      .col-md-3
+        h5= 'medium'
+      .col-md-3
+        h5= 'hard'
+    br
+    .row
+      h3= 'Technical Interview'
+    .row
+      .col-md-3
+        a(href='/ruby/technicalinterview/hkphonenumber.rb')
+          h5= 'question 1'
+      .col-md-3
+        a(href='/ruby/technicalinterview/everyother.rb')
+          h5= 'question 2'
+      .col-md-3
+        a(href='/ruby/technicalinterview/aliquot.rb')
+          h5= 'question 3'
+
+  script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js', integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN', crossorigin='anonymous')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js', integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q', crossorigin='anonymous')
+  script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js', integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl', crossorigin='anonymous')
