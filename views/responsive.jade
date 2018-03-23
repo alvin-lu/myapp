@@ -5,11 +5,11 @@ block content
   .container
     #accordion
       .card
-        #headingOne.card-header
+        #headingCurriculum.card-header
           h5.mb-0
-            button.btn.btn-link(data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+            button.btn.btn-link(data-toggle='collapse', data-target='#collapseCurriculum', aria-expanded='true', aria-controls='collapseCurriculum')
               | Curriculum
-        #collapseOne.collapse.show(aria-cardcardLabelledby='headingOne', data-parent='#accordion')
+        #collapseCurriculum.collapse.show(aria-labelledby='headingCurriculum', data-parent='#accordion')
           .card-body
             .row
               .col-md-3
@@ -34,11 +34,11 @@ block content
                   a(href='/ruby/other/curriculum/hashes/test.rb')
                     p(class='content') test.rb
       .card
-        #headingTwo.card-header
+        #headingStepTwo.card-header
           h5.mb-0
-            button.btn.btn-link.collapsed(data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+            button.btn.btn-link.collapsed(data-toggle='collapse', data-target='#collapseStepTwo', aria-expanded='false', aria-controls='collapseStepTwo')
               | Step 2
-        #collapseTwo.collapse(aria-cardcardLabelledby='headingTwo', data-parent='#accordion')
+        #collapseStepTwo.collapse(aria-labelledby='headingStepTwo', data-parent='#accordion')
           .card-body
             .row
               .col-md-3
@@ -109,11 +109,11 @@ block content
                   a(href='/ruby/steptwo/w2d4/vigenere.rb')
                     p(class='content') vigenere.rb
       .card
-        #headingThree.card-header
+        #headingPracticeAssessment.card-header
           h5.mb-0
-            button.btn.btn-link.collapsed(data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
+            button.btn.btn-link.collapsed(data-toggle='collapse', data-target='#collapsePracticeAssessment', aria-expanded='false', aria-controls='collapsePracticeAssessment')
               | Practice Assessment
-        #collapseThree.collapse(aria-cardcardLabelledby='headingThree', data-parent='#accordion')
+        #collapsePracticeAssessment.collapse(aria-labelledby='headingPracticeAssessment', data-parent='#accordion')
           .card-body
             .row
               .col-md-3
@@ -145,11 +145,11 @@ block content
                   a(href='/ruby/other/assessment/practice4/test.rb')
                     p(class='content') test.rb
       .card
-        #headingFour.card-header
+        #headingTechnicalInterviewPrep.card-header
           h5.mb-0
-            button.btn.btn-link.collapsed(data-toggle='collapse', data-target='#collapseFour', aria-expanded='false', aria-controls='collapseFour')
+            button.btn.btn-link.collapsed(data-toggle='collapse', data-target='#collapseTechnicalInterviewPrep', aria-expanded='false', aria-controls='collapseTechnicalInterviewPrep')
               | Technical Interview Prep
-        #collapseFour.collapse(aria-cardcardLabelledby='headingFour', data-parent='#accordion')
+        #collapseTechnicalInterviewPrep.collapse(aria-labelledby='headingTechnicalInterviewPrep', data-parent='#accordion')
           .card-body
             .row
               .col-md-3
@@ -186,11 +186,11 @@ block content
                   a(href='/ruby/technicalinterviewprep/hard/wordplay.rb')
                     p(class='content') wordplay.rb
       .card
-        #headingFive.card-header
+        #headingTechnicalInterview.card-header
           h5.mb-0
-            button.btn.btn-link.collapsed(data-toggle='collapse', data-target='#collapseFive', aria-expanded='false', aria-controls='collapseFive')
+            button.btn.btn-link.collapsed(data-toggle='collapse', data-target='#collapseTechnicalInterview', aria-expanded='false', aria-controls='collapseTechnicalInterview')
               | Technical Interview
-        #collapseFive.collapse(aria-cardcardLabelledby='headingFive', data-parent='#accordion')
+        #collapseTechnicalInterview.collapse(aria-labelledby='headingTechnicalInterview', data-parent='#accordion')
           .card-body
             .row
               .col-md-3
@@ -208,7 +208,50 @@ block content
                 .col-md-12
                   a(href='/ruby/technicalinterview/aliquot.rb')
                     p(class='content') aliquot.rb
-
+      .card
+        #headingFAQ.card-header
+          h5.mb-0
+            button.btn.btn-link.collapsed(data-toggle='collapse', data-target='#collapseFAQ', aria-expanded='false', aria-controls='collapseFAQ')
+              | F.A.Q.
+        #collapseFAQ.collapse(aria-labelledby='headingFAQ', data-parent='#accordion')
+          .card-body
+            .row
+              .col-md-12
+                p(class='cardLabel') What did I use during a/A JumpStart Step 2?
+                .row
+                  .col-md-3
+                    p(class='cardLabelContent') RubyMine
+                  .col-md-3
+                    p(class='cardLabelContent') Atom Text Editor
+                    p(class='cardLabelContent') Command-Line Interface
+                    .col-md-12
+                      p(class='cardLabelContent') Terminal UNIX/Linux
+                      p(class='cardLabelContent') cmder Windows
+                  .col-md-3
+                    p(class='cardLabelContent') GitHub
+            .row
+              .col-md-12
+                p(class='cardLabel') What did I use to build this website?
+                .row
+                  .col-md-3
+                    p(class='cardLabelContent') Atom Text Editor
+                    p(class='cardLabelContent') Command-Line Interface
+                    .col-md-12
+                      p(class='cardLabelContent') Terminal UNIX/Linux
+                      p(class='cardLabelContent') cmder Windows
+                  .col-md-3
+                    p(class='cardLabelContent') HTML5
+                    p(class='cardLabelContent') CSS3
+                    p(class='cardLabelContent') JavaScript
+                    p(class='cardLabelContent') Bootstrap 4
+                  .col-md-3
+                    p(class='cardLabelContent') NodeJS
+                    p(class='cardLabelContent') ExpressJS
+                    p(class='cardLabelContent') Jade
+                  .col-md-3
+                    p(class='cardLabelContent') Heroku
+                    p(class='cardLabelContent') GitHub
+                  
   script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js', integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN', crossorigin='anonymous')
   script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js', integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q', crossorigin='anonymous')
   script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js', integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl', crossorigin='anonymous')

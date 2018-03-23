@@ -18,6 +18,10 @@ p.cardLabel {
    /* font-family: 'Montserrat', sans-serif; */
    color: #2C3E50;
 }
+p.cardLabelContent {
+   /* font-family: 'Montserrat', sans-serif; */
+   color: #3498DB !important;
+}
 p.content {
   /* font-family: 'Montserrat', sans-serif; */
   color: #3498DB !important;
