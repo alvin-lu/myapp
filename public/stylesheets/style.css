@@ -1,19 +1,31 @@
 body {
     background-color: #2C3E50 !important;
+    font-family: 'Montserrat', sans-serif !important;
 }
 h1 {
-  font-family: 'Montserrat', sans-serif !important;
+  /* font-family: 'Montserrat', sans-serif !important; */
   color: #ECF0F1 !important;
 }
 h3 {
-  font-family: 'Montserrat', sans-serif !important;
+  /* font-family: 'Montserrat', sans-serif !important; */
   color: #ECF0F1 !important;
 }
 p.label {
-   font-family: 'Montserrat', sans-serif;
+   /* font-family: 'Montserrat', sans-serif; */
    color: #E74C3C !important;
 }
+p.cardLabel {
+   /* font-family: 'Montserrat', sans-serif; */
+   color: #2C3E50;
+}
 p.content {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   color: #3498DB !important;
+}
+div.card {
+  background-color: #ECF0F1;
+  /* font-family: 'Montserrat', sans-serif !important; */
+}
+button {
+  color: #E74C3C !important;
 }
