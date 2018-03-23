@@ -33,3 +33,5 @@ div.card {
 button {
   color: #E74C3C !important;
 }
+.error {
+  color: #ECF0F1;
